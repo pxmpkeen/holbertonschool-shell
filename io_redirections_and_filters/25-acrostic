@@ -1,2 +1,2 @@
 #!/bin/bash
-'\n' >> cut -c-1 | tr --delete '\n'
+echo "${cut -c-1 | tr --delete '\n'}'\n'"
