@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | find -name "[13579][-13579]*" | rev | cut -d '/' -f1 | rev
+echo $(cat) | cut -d ' ' -f1,3,5,7,9,11,13,15,17,19 | tr ' ' '\n'
